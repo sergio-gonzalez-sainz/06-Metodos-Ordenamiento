@@ -1,4 +1,60 @@
-.Titulo
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&display=swap');
+
+
+body 
 {
-    text-align: center;
+  font-family: "Montserrat";
+  color: #424242
+}
+label
+{
+    color: #272727;
+}
+
+.seccion {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titulo
+{
+    font-size: 40px;
+    margin: 0;
+}
+
+.button 
+{
+  background-color: #4CAF50; 
+  border-radius: 30px;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+
+.button2 
+{
+  background-color: #008CBA;
+}
+
+select {
+  background-color: #f1f1f1;
+  border-radius: 4px;
+  width: 15%;
+  padding: 10px 20px;
+  border: none;
+}
+
+input[type=number] {
+  background-color: #f1f1f1;
+  border: 2px solid #ccc ;
+  color: #202020;
+  border-radius: 4px;
 }

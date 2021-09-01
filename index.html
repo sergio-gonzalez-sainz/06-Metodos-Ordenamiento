@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Métodos de Ordenaminto</title>
+    <title>Metodos de Ordenaminto</title>
 </head>
 <body>
-    <h1 class ="Titulo">Sort Methods</h1>
-    
+  <section class = "seccion">
+    <h1 class ="titulo">Sort Methods</h1>
+  </section>
     <!--Selecciona el método-->
     <div>
         <label>Select the method:</label>
@@ -22,34 +23,31 @@
     
     <!--Indica el tamaño del arreglo-->
     <div>
-        <label>How many elements want to sort?</label>
+        <label class = "label">How many elements want to sort?</label>
         <input  type="number" id ="Size">
     </div> 
     <br>
-    <!--Se coloca el script acá para que reconozca la variable contadorArreglo-->
-    <script src="ordenar.js"></script>
-    
     <!--Declara cada elemento-->
     <div>
-        <label>The elements in the position 
+        <label class = "label">The elements in the position 
             <strong id="ContadorSize">
-                <script>
-                    document.getElementById("ContadorSize").innerHTML = contadorArreglo;
-                </script>
             </strong> 
              will be:
         </label>
         <input  type="number" id ="Element">
-        <button type="button" id ="Estado" onclick="guardar()">Save item</button>
-        <p>Element seved item is: <strong id="Demo"></strong>
+      <!--Botón para guardar elemento-->
+        <button type="button" class="button button2" id ="Estado" onclick="guardar()">Save item</button>
+      <!-- Bandera de el elemento guardado -->
+        <p class = "label">Element seved item is: <strong id="Demo"></strong>
         </p>
     </div> 
     <br>
     <!--Botón para ordenar-->
-    <button type="button" onclick="myFunction()">Start method</button>
+    <button type="button" class="button" onclick="myFunction()">Start method</button>
     <div>
         <p id="MostrarArreglo"></p>
     </div>
-
+    <canvas width="500" height="500" id ="miCanvas"></canvas>
+<script src="ordenar.js"></script> 
 </body>
 </html>
