@@ -13,28 +13,50 @@
 
 ## Descripción y contexto
 ---
-Esto es un archivo README. Debe contener la documentación de soporte uso de la herramienta digital. Las siguientes secciones son las secciones recomendadas que debes poner incluir en cualquier herramienta digital. Puedes descargar este archivo para que te sirva como plantilla.
+Link del proyecto (codepen): https://codepen.io/sergio-gonzalez-sainz/project/editor/XaqbJj
 
-Asegúrate de empezar este archivo con una breve descripción sobre las funcionalidades y contexto de la herramienta digital. Sé conciso y al grano.
+Is a little web page that can visualize two sort's methods:
+1 - Bubble sort 
+2 - Inset sort 
 
-## Guía de usuario
----
-Explica los pasos básicos sobre cómo usar la herramienta digital. Es una buena sección para mostrar capturas de pantalla o gifs que ayuden a entender la herramienta digital.
- 	
-## Guía de instalación
----
-Paso a paso de cómo instalar la herramienta digital. En esta sección es recomendable explicar la arquitectura de carpetas y módulos que componen el sistema.
-
-Según el tipo de herramienta digital, el nivel de complejidad puede variar. En algunas ocasiones puede ser necesario instalar componentes que tienen dependencia con la herramienta digital. Si este es el caso, añade también la siguiente sección.
-
-La guía de instalación debe contener de manera específica:
-- Los requisitos del sistema operativo para la compilación (versiones específicas de librerías, software de gestión de paquetes y dependencias, SDKs y compiladores, etc.).
-- Las dependencias propias del proyecto, tanto externas como internas (orden de compilación de sub-módulos, configuración de ubicación de librerías dinámicas, etc.).
-- Pasos específicos para la compilación del código fuente y ejecución de tests unitarios en caso de que el proyecto disponga de ellos.
+The user can indicate how many numbers want to sort and can select the method. 
 
 
-## Autor/es
----
-Nombra a el/los autor/es original/es. Consulta con ellos antes de publicar un email o un nombre personal. Una manera muy común es dirigirlos a sus cuentas de redes sociales.
+## 1 - Select Method
+
+The user need to select the sort mothod cliking  one option of the list, this element are validated, is required by work the system :
+
+1. Bubble Sort 
+2. Insertion Sort
+
+```jsx
+<select name="Method">
+  <option >Bubble Sort</option>
+  <option >Insertion Sort</option>
+</select>
+```
+
+This step will save the option that will make us redirect to a new view when the user presses the button "**Ordenar**" that be in the end in the form. 
+
+## 2 - Array size
+
+The user need to select the size cliking one option of the list, this element are validated, is required by work the system :
+
+```html
+<select name="Method">
+  <option >Bubble Sort</option>
+  <option >Insertion Sort</option>
+</select>
+```
+
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/10734bd3-47b7-403e-8d91-d7056b3f3afa/Metodos.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/10734bd3-47b7-403e-8d91-d7056b3f3afa/Metodos.jpg)
+
+## 3 - Button "Ordenar"
+
+By this step the user will have selected the method and array size. 
+
+In the case that <select> of field Method or field Array Size are unselectec the system should show a Window alert() that notify to user that need to select one option in every field .
+
+In the case that two field are seleted, when the user cliking "Ordener" Button the user will be redirect to a new view, can be redirect to Bubble Sort windows or Insertion Sort window, It will depend on which option user choose in the fields.
 
 
