@@ -9,6 +9,7 @@
 Link del proyecto (codepen): https://codepen.io/sergio-gonzalez-sainz/project/editor/XaqbJj
 
 Is a little web page that can visualize two sort's methods:
+
 1 - Bubble sort 
 2 - Inset sort 
 
