@@ -7,7 +7,9 @@
 ## Descripción y contexto
 ---
 Link del proyecto (codepen): https://codepen.io/sergio-gonzalez-sainz/project/editor/XaqbJj
+
 <a href="https://sergio-gonzalez-sainz.github.io/06-Metodos-Ordenamiento.github.io/" target="_blank">Project Link</a>
+
 Is a little web page that can visualize two sort's methods:
 
 1 - Bubble sort 
