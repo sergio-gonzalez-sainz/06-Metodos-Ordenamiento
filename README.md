@@ -1,5 +1,5 @@
 <h1 align="center"> 06-Metodos-Ordenamiento</h1>
-<h3 href="https://sergio-gonzalez-sainz.github.io/06-Metodos-Ordenamiento.github.io/">Link del proyecto</h3>
+<a href="https://sergio-gonzalez-sainz.github.io/06-Metodos-Ordenamiento.github.io/" target="_blank">Project Link</a>
 <p align="center"><img src="/Metodos.png"></p> 
 
 
