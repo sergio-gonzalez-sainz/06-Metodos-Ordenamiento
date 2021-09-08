@@ -1,5 +1,5 @@
 <h1 align="center"> 06-Metodos-Ordenamiento</h1>
-<p align="center"> Logo e imagen o gif de la interfaz principal de la herramienta</p>
+<h3 href="https://sergio-gonzalez-sainz.github.io/06-Metodos-Ordenamiento.github.io/">Link del proyecto</h3>
 <p align="center"><img src="/Metodos.png"></p> 
 
 
